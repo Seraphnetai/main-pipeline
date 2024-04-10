@@ -1,0 +1,7 @@
+bentoml>=1.0.10
+fastapi
+feast[postgres,redis]>=0.21.0
+label-studio-sdk>=0.0.17,<=0.0.24
+s3fs
+setuptools
+zenml==0.40.0

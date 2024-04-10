@@ -1,0 +1,14 @@
+project: drim_features
+provider: local
+registry:
+  path: s3://feast/registry.db
+  registry_type: file
+  registry_store_type: feast.infra.registry.s3.S3RegistryStore
+offline_store:
+  type: postgres
+  host: 192.168.1.113
+  port: 25678
+  database: <LABEL_STUDIO_DB_NAME>
+  user: <LABEL_STUDIO_DB_USER>
+  password: <LABEL_STUDIO_DB_PASSWORD>
+entity_key_serialization_version: 2

@@ -1,0 +1,8 @@
+bentoml==1.0.20
+boto3==1.26.146
+fastapi==0.93.0
+feast==0.31.1
+label-studio-sdk==0.0.24
+s3fs==0.4.2
+setuptools==67.8.0
+zenml==0.40.0
